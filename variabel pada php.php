@@ -13,20 +13,22 @@ $stok = 40;
 // mengisi ulang variabel dengan nilai baru
 $stok = 34;
 
-// Contoh: Salah
-// $!nama = "arjun";
-// $46rosi = "arjun slebew";
-// Contoh: Benar
+//	1) Awal dari nama variabel tidak boleh menggunakan angka dan simbol, kecuali underscore.
+// Contoh ❌ : Salah
+// $!nama = "";
+// $46rosi = "";
+// Contoh ✔️ : Benar
 $nama = "Arjun";
 $rosi46 = "Arjun slebew";
-
+// 2)	Nama variabel yang terdiri dari dua suku kata, bisa dipisah dengan underscore (_) atau menggunakan style camelCase.
 $nama_barang = "Handphone";
-$namaPembeli = "Arjun"; // menggunakan camelCase
-
+$namaPembeli = "Sultan"; // menggunakan camelCase
+// 3)	Variabel harus diisi saat pembuatannya. Bila kita tidak ingin mengisi, cukup isi dengan nilai kosong.
 $nama_barang = "Handphone";
 $namaPembeli = "Sultan";
 $harga = 12000;
-
+// 4)	Nama variabel bersifat Case Sensitive, artinya huruf besar dan huruf kecil dibedakan.
+// Contoh: Tiga variabel ini akan dianggap berbeda.
 $Belajar = "HTML";
 $BELAJAR = "CSS";
 $belajar = "JS";
