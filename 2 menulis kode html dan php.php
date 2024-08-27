@@ -7,7 +7,7 @@
         <?php
             echo "kita sedang belajar PHP<br>";
             echo "<p>Belajar PHP hingga jadi master</p>";
-            echo "<p>By : Ahmad arjun trisula</p>";
+            echo "<p><strong>By : Ahmad arjun trisula</p>";
         ?>
     </body>
 </html>
