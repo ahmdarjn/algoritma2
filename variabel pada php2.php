@@ -21,7 +21,7 @@ $stok = 34;
 $nama = "Arjun";
 $rosi46 = "Arjun slebew";
 // 2)	Nama variabel yang terdiri dari dua suku kata, bisa dipisah dengan underscore (_) atau menggunakan style camelCase.
-$nama_barang = "Handphone";
+$nama_barang = "Handphone ";
 $namaPembeli = "Sultan"; // menggunakan camelCase
 // 3)	Variabel harus diisi saat pembuatannya. Bila kita tidak ingin mengisi, cukup isi dengan nilai kosong.
 $nama_barang = "Handphone";
